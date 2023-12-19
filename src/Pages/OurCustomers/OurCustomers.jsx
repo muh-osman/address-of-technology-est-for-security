@@ -1,6 +1,5 @@
 // Icons
-import { IoHome } from "react-icons/io5";
-import { IoBusiness } from "react-icons/io5";
+import { IoHome, IoBusiness } from "react-icons/io5";
 import { RiGovernmentFill } from "react-icons/ri";
 // SCSS
 import style from "./OurCustomers.module.scss";

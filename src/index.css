@@ -71,3 +71,13 @@ body {
 .swiper-pagination-progressbar-fill {
   background-color: #ee5057 !important;
 }
+
+/* sewper 2 */
+
+
+.swiper-slide2 {
+  background-position: center;
+  background-size: cover;
+  width: 300px !important;
+  height: 300px;
+}
