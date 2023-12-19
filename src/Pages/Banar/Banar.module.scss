@@ -1,0 +1,52 @@
+.container {
+  background-color: #feee00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  position: relative;
+
+  a {
+    display: inline-block;
+  }
+
+  .tel {
+    color: #404553;
+    font-size: 16px;
+    font-weight: 700;
+
+    &:hover {
+      color: #000;
+    }
+  }
+
+  .social {
+    position: absolute;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    a {
+      display: inline-block;
+      color: #000;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        color: #0d6efd;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    justify-content: start;
+
+    .social {
+      gap: 10px;
+    }
+  }
+}
