@@ -16,7 +16,7 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 
 export default function OurProjects() {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="projects">
       <h1>مشاريعنا</h1>
 
       <div>

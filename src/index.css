@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 59px;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

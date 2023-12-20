@@ -21,10 +21,10 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav" className={style.nav_link}>
           <Nav className="me-auto">
             <Nav.Link href="#home" className={style.active}>الرئيسية</Nav.Link>
-            <Nav.Link href="#link">مشاريعنا</Nav.Link>
-            <Nav.Link href="#link">شركاء النجاح</Nav.Link>
-            <Nav.Link href="#link">اتصل بنا</Nav.Link>
-            <Nav.Link href="#link">حول</Nav.Link>
+            <Nav.Link href="#projects">مشاريعنا</Nav.Link>
+            <Nav.Link href="#partners">شركاء النجاح</Nav.Link>
+            <Nav.Link href="#contact">اتصل بنا</Nav.Link>
+            <Nav.Link href="#about">حول</Nav.Link>
           </Nav>
         </Navbar.Collapse>
 

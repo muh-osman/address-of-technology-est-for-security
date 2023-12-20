@@ -2,11 +2,11 @@ import useWindowDimensions from "../../utiles/useWindowDimensions";
 // SCSS
 import style from "./Map.module.scss";
 
-export default function Maps() {
+export default function Map() {
   const { width } = useWindowDimensions();
 
   return (
-    <div className={style.container}>
+    <div className={style.container} id="contact">
       <div className={style.form_box}>
         <h1>تواصل معنا</h1>
         <form>
