@@ -18,12 +18,23 @@ a {
   text-decoration: none !important;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 @media (min-width: 992px) {
   .me-auto {
     height: 60px !important;
   }
 }
-
 
 /* Swiper */
 #app {
@@ -74,10 +85,175 @@ body {
 
 /* sewper 2 */
 
-
 .swiper-slide2 {
   background-position: center;
   background-size: cover;
   width: 300px !important;
   height: 300px;
+}
+
+/*------------------------------------
+- COLOR primary
+------------------------------------*/
+.alert-primary {
+  color: #b21118;
+  border-color: #fef7f7;
+}
+
+.alert-primary hr {
+  border-top-color: #fbe0e1;
+}
+
+.alert-primary .alert-link {
+  color: #830c12;
+}
+
+.badge-primary {
+  color: #212529;
+  background-color: #ee5057;
+}
+
+.badge-primary[href]:hover,
+.badge-primary[href]:focus {
+  color: #212529;
+  background-color: #e9212a;
+}
+
+.bg-primary {
+  background-color: #ee5057 !important;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: #e9212a !important;
+}
+
+.border-primary {
+  border-color: #ee5057 !important;
+}
+
+.btn-primary {
+  color: #212529;
+  background-color: #ee5057 !important;
+  border-color: #ee5057 !important;
+}
+
+.btn-primary:hover {
+  color: #212529;
+  background-color: #ea2f37 !important;
+  border-color: #e9212a !important;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 80, 87, 0.5) !important;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #212529 !important;
+  background-color: #ee5057 !important;
+  border-color: #ee5057 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #212529;
+  background-color: #e9212a !important;
+  border-color: #e5161f !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 80, 87, 0.5) !important;
+}
+
+.btn-outline-primary {
+  color: #ee5057 !important;
+  background-color: transparent !important;
+  border-color: #ee5057 !important;
+}
+
+.btn-outline-primary:hover {
+  color: #212529 !important;
+  background-color: #ee5057 !important;
+  border-color: #ee5057 !important;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 80, 87, 0.5) !important;
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #ee5057 !important;
+  background-color: transparent !important;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: #212529 !important;
+  background-color: #ee5057 !important;
+  border-color: #ee5057 !important;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 80, 87, 0.5) !important;
+}
+
+.list-group-item-primary {
+  color: #b21118 !important;
+  background-color: #fef7f7 !important;
+}
+
+.list-group-item-primary.list-group-item-action:hover,
+.list-group-item-primary.list-group-item-action:focus {
+  color: #b21118;
+  background-color: #fbe0e1;
+}
+
+.list-group-item-primary.list-group-item-action.active {
+  color: #212529;
+  background-color: #b21118;
+  border-color: #b21118;
+}
+
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: #fef7f7;
+}
+
+.table-hover .table-primary:hover {
+  background-color: #fbe0e1;
+}
+
+.table-hover .table-primary:hover > td,
+.table-hover .table-primary:hover > th {
+  background-color: #fbe0e1;
+}
+
+.text-primary {
+  color: #ee5057 !important;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #e9212a !important;
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #e9212a !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #ee5057 !important;
 }
