@@ -2,6 +2,7 @@ import About from "../About/About";
 import Banar from "../Banar/Banar";
 import Footer from "../Footer/Footer";
 import Hero from "../Hero/Hero";
+import LifeTimeSupport from "../LifeTimeSupport/LifeTimeSupport";
 import Map from "../Map/Map";
 import Navbar from "../Navbar/Navbar";
 import OurCustomers from "../OurCustomers/OurCustomers";
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <About />
       <OurCustomers />
+      <LifeTimeSupport />
       <OurProjects />
       <Partners />
       <Map />
