@@ -26,7 +26,7 @@ export default function Banar() {
           <FaSquareInstagram />
         </a>
 
-        <a href="#">
+        <a href="">
           <FaSquareSnapchat />
         </a>
       </div>
